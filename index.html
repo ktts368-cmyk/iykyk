@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>#IYKYK — If You Know, You Know</title>
+  <meta name="description" content="One tee. Two colors. No explanation. A 240 GSM heavyweight oversized tee with four characters on the chest. If you know, you know.">
+  <meta property="og:title" content="#IYKYK — If You Know, You Know">
+  <meta property="og:description" content="One tee. Two colors. No explanation. The people who get it, get it.">
+  <meta property="og:type" content="product">
+  <meta name="theme-color" content="#000000">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ====================================================
+       SECTION 0 — Navigation Bar
+       ==================================================== -->
+  <nav class="nav" id="nav" role="navigation" aria-label="Main navigation">
+    <span class="nav__wordmark">#IYKYK</span>
+    <a href="#buy" class="nav__buy" id="nav-buy-link">Buy</a>
+  </nav>
+
+
+  <!-- ====================================================
+       SECTION 1 — Hero
+       ==================================================== -->
+  <section class="hero" id="hero">
+    <div class="hero__image-wrapper">
+      <img
+        src="assets/hero-poster.jpg"
+        alt="Black #IYKYK tee on hanger against white backdrop"
+        class="hero__image"
+        loading="eager"
+      >
+    </div>
+
+    <div class="hero__content" id="hero-content">
+      <h1 class="hero__headline">If you know, you know.</h1>
+      <p class="hero__subline">One tee. Two colors. No explanation.</p>
+      <a href="#buy" class="hero__cta" id="hero-cta">Buy — ₹2,499</a>
+    </div>
+
+    <div class="hero__scroll-hint" aria-hidden="true">
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <polyline points="6 9 12 15 18 9"></polyline>
+      </svg>
+    </div>
+  </section>
+
+
+  <!-- ====================================================
+       SECTION 1.5 — The Model (Editorial Shot)
+       ==================================================== -->
+  <section class="editorial" id="editorial">
+    <div class="editorial__image-wrapper">
+      <img
+        src="assets/model-black-tee.jpg"
+        alt="Model wearing the black #IYKYK oversized tee"
+        class="editorial__image"
+        loading="lazy"
+      >
+    </div>
+    <div class="editorial__caption fade-up">
+      <p class="editorial__caption-text">Worn, not explained.</p>
+    </div>
+  </section>
+
+
+  <!-- ====================================================
+       SECTION 2 — The Statement (Manifesto)
+       ==================================================== -->
+  <section class="manifesto" id="manifesto">
+    <div class="manifesto__inner">
+      <p class="manifesto__big-no fade-up stagger-1">No.</p>
+      <p class="manifesto__line fade-up stagger-2">Big logo.</p>
+      <p class="manifesto__line fade-up stagger-3">Graphics.</p>
+      <p class="manifesto__line fade-up stagger-4">Loud anything.</p>
+      <p class="manifesto__line manifesto__line--closer fade-up stagger-5">The people who get it, get it.</p>
+    </div>
+  </section>
+
+
+  <!-- ====================================================
+       SECTION 3 — The Toggle (Colorway Switcher)
+       ==================================================== -->
+  <section class="colorway" id="colorway">
+    <span class="colorway__eyebrow fade-up">TWO SKUS. THAT'S IT.</span>
+    <h2 class="colorway__headline fade-up">Pick a side.</h2>
+
+    <div class="colorway__image-container fade-up" id="colorway-images">
+      <img
+        src="assets/tee-black-flatlay.jpg"
+        alt="Black #IYKYK tee flat-lay"
+        class="colorway__image colorway__image--black"
+        id="colorway-img-black"
+        loading="lazy"
+      >
+      <img
+        src="assets/tee-white-flatlay.jpg"
+        alt="White #IYKYK tee flat-lay"
+        class="colorway__image colorway__image--white hidden"
+        id="colorway-img-white"
+        loading="lazy"
+      >
+    </div>
+
+    <div class="colorway__dots fade-up" role="radiogroup" aria-label="Select colorway">
+      <button
+        class="colorway__dot colorway__dot--black active"
+        id="dot-black"
+        role="radio"
+        aria-checked="true"
+        aria-label="Pure Black"
+        data-color="black"
+      ></button>
+      <button
+        class="colorway__dot colorway__dot--white"
+        id="dot-white"
+        role="radio"
+        aria-checked="false"
+        aria-label="Pure White"
+        data-color="white"
+      ></button>
+    </div>
+
+    <p class="colorway__label fade-up" id="colorway-label">Pure Black</p>
+    <p class="colorway__microcopy fade-up">Same fit. Same fabric. Same print. Different mood.</p>
+  </section>
+
+
+  <!-- ====================================================
+       SECTION 4 — Macro Details
+       ==================================================== -->
+  <section id="details">
+    <!-- Frame 1 — Fabric texture -->
+    <div class="macro-frame macro-frame--dark" id="macro-1">
+      <img
+        src="assets/macro-fabric.jpg"
+        alt="Extreme close-up of 240 GSM heavyweight cotton knit texture"
+        class="macro-frame__image"
+        loading="lazy"
+      >
+      <div class="macro-frame__caption fade-up">
+        <h3 class="macro-frame__caption-headline">240 GSM. You'll feel it before you see it.</h3>
+        <p class="macro-frame__caption-body">Heavyweight combed cotton from the mill town that makes tees for the brands you already wear. Dense, structured, zero see-through.</p>
+      </div>
+    </div>
+
+    <!-- Frame 2 — Drop-shoulder seam -->
+    <div class="macro-frame macro-frame--dark" id="macro-2">
+      <img
+        src="assets/macro-seam.jpg"
+        alt="Close-up of drop-shoulder seam detail"
+        class="macro-frame__image"
+        loading="lazy"
+      >
+      <div class="macro-frame__caption fade-up">
+        <h3 class="macro-frame__caption-headline">The seam isn't where you expect. That's intentional.</h3>
+        <p class="macro-frame__caption-body">True drop-shoulder cut. The seam sits low, the silhouette sits boxy. Relaxed without looking like you borrowed it.</p>
+      </div>
+    </div>
+
+    <!-- Frame 3 — The print -->
+    <div class="macro-frame macro-frame--dark" id="macro-3">
+      <img
+        src="assets/macro-print.jpg"
+        alt="Raking light across raised #IYKYK chest print"
+        class="macro-frame__image"
+        loading="lazy"
+      >
+      <div class="macro-frame__caption fade-up">
+        <h3 class="macro-frame__caption-headline">Four characters. Raised, not printed flat.</h3>
+        <p class="macro-frame__caption-body">High-density print, center chest, deliberately small. You have to be close enough to read it. That's the filter.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ====================================================
+       SECTION 5 — The Spec Sheet
+       ==================================================== -->
+  <section class="specs" id="specs">
+    <h2 class="specs__headline fade-up">The details, for the detail-obsessed.</h2>
+
+    <table class="specs__table">
+      <tbody>
+        <tr class="fade-up stagger-1">
+          <td>Fabric</td>
+          <td>100% combed cotton, 240 GSM</td>
+        </tr>
+        <tr class="fade-up stagger-2">
+          <td>Origin</td>
+          <td>India</td>
+        </tr>
+        <tr class="fade-up stagger-3">
+          <td>Fit</td>
+          <td>Oversized, drop-shoulder</td>
+        </tr>
+        <tr class="fade-up stagger-4">
+          <td>Print</td>
+          <td>High-density raised, center chest</td>
+        </tr>
+        <tr class="fade-up stagger-5">
+          <td>Wash</td>
+          <td>Bio-washed, pre-shrunk</td>
+        </tr>
+        <tr class="fade-up stagger-6">
+          <td>Colors</td>
+          <td>Pure Black / Pure White</td>
+        </tr>
+        <tr class="fade-up stagger-7">
+          <td>Sizes</td>
+          <td>S — XXL</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p class="specs__footnote fade-up">Garment-checked twice before it ships. We're annoying about it.</p>
+
+    <button
+      class="specs__size-guide-toggle"
+      id="size-guide-toggle"
+      aria-expanded="false"
+      aria-controls="size-guide-panel"
+    >Size guide</button>
+
+    <div class="specs__size-guide" id="size-guide-panel" role="region" aria-label="Size guide measurements">
+      <h3 class="specs__size-guide-title">Measurements (in cm)</h3>
+      <table class="specs__size-table">
+        <thead>
+          <tr>
+            <th>Size</th>
+            <th>Chest</th>
+            <th>Length</th>
+            <th>Shoulder</th>
+            <th>Sleeve</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>S</td><td>106</td><td>70</td><td>54</td><td>24</td></tr>
+          <tr><td>M</td><td>112</td><td>72</td><td>56</td><td>25</td></tr>
+          <tr><td>L</td><td>118</td><td>74</td><td>58</td><td>26</td></tr>
+          <tr><td>XL</td><td>124</td><td>76</td><td>60</td><td>27</td></tr>
+          <tr><td>XXL</td><td>130</td><td>78</td><td>62</td><td>28</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+
+  <!-- ====================================================
+       SECTION 6 — The Buy Module
+       ==================================================== -->
+  <section class="buy" id="buy">
+    <div class="buy__inner">
+      <div class="buy__image-container fade-up">
+        <img
+          src="assets/tee-black-buy.jpg"
+          alt="Black #IYKYK tee product shot"
+          class="buy__product-image"
+          id="buy-img-black"
+          loading="lazy"
+        >
+        <img
+          src="assets/tee-white-buy.jpg"
+          alt="White #IYKYK tee product shot"
+          class="buy__product-image hidden"
+          id="buy-img-white"
+          loading="lazy"
+        >
+      </div>
+
+      <div class="buy__stack fade-up">
+        <h2 class="buy__product-name">The #IYKYK Tee</h2>
+        <p class="buy__price">₹2,499</p>
+        <p class="buy__price-note">Inclusive of all taxes. Free shipping across India.</p>
+
+        <!-- Colorway -->
+        <div class="buy__color-section">
+          <p class="buy__section-label">Color</p>
+          <div class="buy__color-dots" role="radiogroup" aria-label="Select color">
+            <button
+              class="buy__color-dot buy__color-dot--black active"
+              id="buy-dot-black"
+              role="radio"
+              aria-checked="true"
+              aria-label="Pure Black"
+              data-color="black"
+            ></button>
+            <button
+              class="buy__color-dot buy__color-dot--white"
+              id="buy-dot-white"
+              role="radio"
+              aria-checked="false"
+              aria-label="Pure White"
+              data-color="white"
+            ></button>
+            <span class="buy__color-name" id="buy-color-label">Pure Black</span>
+          </div>
+        </div>
+
+        <!-- Size -->
+        <div class="buy__size-section">
+          <p class="buy__section-label">Size</p>
+          <div class="buy__sizes" role="radiogroup" aria-label="Select size">
+            <button class="buy__size-pill" role="radio" aria-checked="false" data-size="S">S</button>
+            <button class="buy__size-pill" role="radio" aria-checked="false" data-size="M">M</button>
+            <button class="buy__size-pill" role="radio" aria-checked="false" data-size="L">L</button>
+            <button class="buy__size-pill" role="radio" aria-checked="false" data-size="XL">XL</button>
+            <button class="buy__size-pill" role="radio" aria-checked="false" data-size="XXL">XXL</button>
+          </div>
+        </div>
+
+        <!-- CTA -->
+        <button class="buy__add-btn disabled" id="add-to-bag" disabled aria-label="Add to bag">
+          <span class="buy__add-btn-text" id="add-btn-text">Add to Bag — ₹2,499</span>
+        </button>
+        <p class="buy__size-helper" id="size-helper">Select a size</p>
+        <p class="buy__shipping-note">Ships in 48 hours · Easy 7-day returns</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ====================================================
+       SECTION 7 — Closing Frame
+       ==================================================== -->
+  <section class="closing" id="closing">
+    <h2 class="closing__headline fade-up">Some people will ask what it means.</h2>
+    <p class="closing__subline fade-up">Don't tell them.</p>
+    <a href="#buy" class="closing__cta fade-up">Get yours →</a>
+  </section>
+
+
+  <!-- ====================================================
+       SECTION 8 — Footer
+       ==================================================== -->
+  <footer class="footer" id="footer">
+    <span class="footer__wordmark">#IYKYK</span>
+    <div class="footer__links">
+      <a href="mailto:hello@iykyk.in" class="footer__link" id="footer-contact">Contact</a>
+      <a href="#" class="footer__link" id="footer-shipping">Shipping &amp; Returns</a>
+      <a href="#" class="footer__link" id="footer-size-guide">Size Guide</a>
+      <a href="https://instagram.com" class="footer__link" id="footer-instagram" target="_blank" rel="noopener noreferrer">Instagram</a>
+    </div>
+    <p class="footer__legal">© 2026 #IYKYK. Made in India. Worn everywhere.</p>
+  </footer>
+
+
+  <!-- ====================================================
+       Cart Drawer
+       ==================================================== -->
+  <div class="cart-overlay" id="cart-overlay"></div>
+  <aside class="cart-drawer" id="cart-drawer" role="dialog" aria-label="Shopping bag" aria-hidden="true">
+    <div class="cart-drawer__header">
+      <span class="cart-drawer__title">Bag</span>
+      <button class="cart-drawer__close" id="cart-close" aria-label="Close bag">✕</button>
+    </div>
+    <div class="cart-drawer__body" id="cart-body">
+      <!-- Populated by JS -->
+    </div>
+    <div class="cart-drawer__footer" id="cart-footer" style="display: none;">
+      <div class="cart-drawer__subtotal">
+        <span>Subtotal</span>
+        <span id="cart-subtotal">₹2,499</span>
+      </div>
+      <button class="cart-drawer__checkout-btn" id="checkout-btn">Checkout — ₹2,499</button>
+    </div>
+  </aside>
+
+
+  <!-- ====================================================
+       Mobile Sticky CTA
+       ==================================================== -->
+  <div class="sticky-cta" id="sticky-cta">
+    <a href="#buy" class="sticky-cta__btn">Buy — ₹2,499</a>
+  </div>
+
+
+  <script src="js/main.js"></script>
+</body>
+</html>
